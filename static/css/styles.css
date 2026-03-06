@@ -598,6 +598,12 @@ body {
     filter: brightness(0.9); /* Opcional: para que no brille tanto en el fondo blanco */
 }
 
+.footer-bottom a {
+    color: var(--lila-oscuro);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
 /* Ajuste para celular */
 @media (max-width: 600px) {
     .footer-logo-container {
