@@ -139,7 +139,7 @@ body {
     transform: translateY(-3px);
 }
 /* =========================================
-   3. INDEX - HERO BANNER
+    3. INDEX - HERO BANNER
    ========================================= */
 .hero {
     height: 100vh;
@@ -171,6 +171,7 @@ body {
     letter-spacing: 8px;
     background: linear-gradient(180deg, #5a4b81 0%, #333 100%);
     -webkit-background-clip: text;
+    background-clip: text;         
     -webkit-text-fill-color: transparent;
     animation: reveladoTexto 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
 }
